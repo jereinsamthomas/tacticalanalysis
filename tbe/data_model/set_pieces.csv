@@ -1,0 +1,2 @@
+set_piece_id,match_id,team_id,type,zone,taker_id,delivery_type,target_player_id,outcome,source
+sp0001,m001,t001,corner,Z30,p002,inswinging,p001,cleared,event_tagging

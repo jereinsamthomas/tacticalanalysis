@@ -1,0 +1,4 @@
+frame_id,timestamp_s,match_id,player_id,x,y,speed_mps,orientation_deg,source
+f00001,120.4,m001,p001,15.2,34.0,2.1,90,tracking_optical
+f00001,120.4,m001,p002,58.7,10.2,4.5,270,tracking_optical
+f00001,120.4,m001,p003,90.1,32.5,3.0,180,tracking_optical

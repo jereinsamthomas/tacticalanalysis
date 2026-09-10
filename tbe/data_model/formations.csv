@@ -1,0 +1,3 @@
+formation_id,team_id,match_id,phase,formation_label,timestamp_start_s,timestamp_end_s,source
+fo0001,t001,m001,possession,3-2-5,0,2700,derived
+fo0002,t001,m001,defensive,4-3-3,0,2700,derived

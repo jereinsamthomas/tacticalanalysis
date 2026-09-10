@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tactical Battle Engine — Machine-Readable Rule Schema",
+  "type": "object",
+  "required": ["rule_id", "category", "phase", "trigger", "condition", "actor", "action", "target", "purpose", "expected_result", "risk", "counter", "confidence", "source_class"],
+  "properties": {
+    "rule_id": {"type": "string", "description": "Unique ID, e.g. MV0421, PR0118, TP0301"},
+    "category": {
+      "type": "string",
+      "enum": ["MOVEMENT", "PASSING", "PRESSING", "DEFENDING", "ATTACKING", "TRANSITION", "FORMATION", "SPACE", "PLAYER", "GAME_STATE", "SET_PIECE", "SUBSTITUTION", "ATTRIBUTE_INTERACTION"]
+    },
+    "phase": {
+      "type": "string",
+      "enum": ["attacking_organisation", "defensive_organisation", "offensive_transition", "defensive_transition", "set_piece", "any"]
+    },
+    "trigger": {"type": "string", "description": "The specific match event/condition that activates this rule"},
+    "condition": {"type": "string", "description": "Additional qualifying condition(s), e.g. zone, opponent shape"},
+    "actor": {"type": "string", "description": "Player role executing the action, references core KB Section 3/51 role names"},
+    "action": {"type": "string"},
+    "target": {"type": "string", "description": "Zone or player the action targets, references the 30-zone grid (core KB Section 1.5)"},
+    "purpose": {"type": "string"},
+    "expected_result": {"type": "string"},
+    "risk": {"type": "string"},
+    "counter": {"type": "string", "description": "How an opponent can neutralize this rule's action"},
+    "confidence": {"type": "string", "enum": ["low", "medium", "medium-high", "high"]},
+    "source_class": {"type": "string", "enum": ["A", "B", "C", "D", "E", "F", "G"], "description": "See 02_EXPLAINABLE_AI_AND_UNCERTAINTY.md Part CM"}
+  }
+}

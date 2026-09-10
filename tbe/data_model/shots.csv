@@ -1,0 +1,2 @@
+shot_id,event_id,match_id,shooter_id,x,y,body_part,xg,psxg,outcome,assist_player_id,assist_type,source
+sh0001,e00003,m001,p003,95.0,34.0,right_foot,0.42,0.55,goal,p002,cutback,event_tagging

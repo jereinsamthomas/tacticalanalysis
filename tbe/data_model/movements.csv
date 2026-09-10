@@ -1,0 +1,2 @@
+movement_id,match_id,player_id,timestamp_s,movement_type,origin_zone,dest_zone,purpose,space_created_zone,source
+mv0001,m001,p002,124.0,decoy_run,Z20,Z25,drag_fullback_wide,Z22,derived

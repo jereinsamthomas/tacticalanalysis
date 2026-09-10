@@ -1,0 +1,4 @@
+player_id,name,team_id,position,role_primary,role_secondary,preferred_foot,height_cm,age,source
+p001,Sample Player A,t001,CB,ball_playing_cb,stopper,right,188,26,observed
+p002,Sample Player B,t001,RW,inverted_winger,wide_playmaker,left,178,23,observed
+p003,Sample Player C,t002,ST,poacher,pressing_forward,right,182,29,observed

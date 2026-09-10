@@ -1,0 +1,2 @@
+decision_id,match_id,timestamp_s,player_id,state_id,action_candidates,chosen_action,tactical_action_value,confidence,source
+de0001,m001,124.6,p002,st0001,"pass|dribble|cross|cutback",dribble,0.58,medium-high,ai_prediction

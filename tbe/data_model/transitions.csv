@@ -1,0 +1,2 @@
+transition_id,match_id,team_id,type,start_timestamp_s,end_timestamp_s,start_zone,outcome,duration_s,source
+tr0001,m001,t002,defensive_transition,130.2,135.6,Z28,possession_reset,5.4,derived

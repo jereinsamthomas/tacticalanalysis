@@ -1,0 +1,2 @@
+shape_id,team_id,match_id,timestamp_s,phase,centroid_x,centroid_y,width_m,length_m,compactness_m,defensive_line_height_m,source
+ts0001,t001,m001,120.4,attacking_organisation,52.3,34.0,58.2,42.1,12.4,38.0,derived

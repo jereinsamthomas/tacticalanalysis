@@ -1,0 +1,2 @@
+press_id,match_id,team_id,presser_id,target_player_id,timestamp_s,zone,trigger,outcome,ppda_contribution,source
+pr0001,m001,t002,p003,p001,120.9,Z8,back_pass,forced_long_ball,1,event_tagging

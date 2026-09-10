@@ -1,0 +1,2 @@
+outcome_id,decision_id,match_id,realized_outcome,outcome_value,xt_delta,opponent_response_type,source
+ou0001,de0001,m001,shot_goal,0.91,0.34,recovery_run_failed,derived

@@ -1,0 +1,4 @@
+event_id,match_id,timestamp_s,team_id,player_id,event_type,x,y,outcome,source
+e00001,m001,121.0,t001,p001,pass,15.2,34.0,complete,event_tagging
+e00002,m001,124.6,t001,p002,dribble,58.7,10.2,complete,event_tagging
+e00003,m001,130.2,t002,p003,shot,95.0,34.0,goal,event_tagging

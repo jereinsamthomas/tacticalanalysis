@@ -1,0 +1,2 @@
+state_id,match_id,timestamp_s,ball_zone,phase,possession_team_id,score_state,game_state_label,pressure_level,space_value_ball_zone,source
+st0001,m001,120.4,Z8,attacking_organisation,t001,0-0,level,medium,0.41,derived
